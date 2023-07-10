@@ -1,0 +1,290 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.navbar a:hover{
+    color:blueviolet;
+}
+.nav-item{
+    font-size: 20px;
+}
+.row{
+    width:90%;
+}
+.row button a{
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.row button a:hover{
+    color:black;
+}
+.left{
+    height:450px;
+    width:500px;
+    float:left;
+    margin-left: 150px;
+    margin-top: 190px;
+}
+.left button:is(:hover,:focus){
+    outline-offset: 3px;
+    color: white;
+    background-color: blueviolet;
+}
+
+.right{
+    height:450px;
+    width:550px;
+    float:left;
+    margin-top: 190px;
+    margin-left: 150px;
+}
+.left h1{
+    font-size: 30px;
+    padding-top: 130px;
+}
+.left h2{
+    font-size:70px;
+}
+.left button{
+    height:50px;
+    width:120px;
+    background-color: white;
+    border: 3px solid blueviolet;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.about{
+    margin-top: 120px;
+}
+.about h1{
+    height:50px;
+    width:300px;
+    margin:auto;
+    text-align: center;
+    border-bottom: 3px solid blueviolet;
+}
+
+
+.l1{
+    height:500px;
+    width:600px;
+    float:left;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.l1 img{
+    height:400px;
+    width:600px;
+}
+.r1{
+    height:500px;
+    width:550px;
+    float:left;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.r1 i{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.r1 p{
+    font-size: 17px;
+}
+.about button a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.about button a:hover{
+    color:black;
+}
+.r1 button {
+    height:50px;
+    width:180px;
+    border-radius: 8px;
+    border:3px solid blueviolet;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 10px;
+    
+}
+.r1 button:hover{
+    color:black;
+    background-color: white;
+}
+.skill{
+    margin-top: 50px;
+}
+.skill h1{
+    height:50px;
+    width:150px;
+    border-bottom: 3px solid blueviolet;
+    margin: auto;
+    text-align: center;
+}
+.skill marquee{
+    margin-top: 30px;
+}
+.skil{
+    margin-top: 90px;
+    margin-left: 80px;
+}
+.project{
+    margin-top: 180px;
+}
+.project h1{
+    height:50px;
+    width:300px;
+    border-bottom: 3px solid blueviolet;
+    margin: auto;
+    text-align: center;
+}
+.project p{
+    text-align: center;
+    margin-top: 20px;
+}
+.pro{
+    margin-top: 50px;
+}
+.container-fixed{
+    margin-left: 120px;
+}
+.card{
+    height:340px;
+	width:270px;
+}
+.card img{
+	height:270px;
+	width:230px;
+	background-size:100% 100%;
+}
+.contact{
+    margin-top: 150px;
+}
+.contact h1{
+    height:50px;
+    width:350px;
+    border-bottom: 3px solid blueviolet;
+    margin: auto;
+    text-align: center;
+}
+.cont{
+    height:80px;
+    width:300px;
+    margin: auto;
+    margin-top: 70px;
+}
+.c1{
+    width:70px;
+    float: left;
+    margin-left: 20px;
+}
+.c2{
+    width:70px;
+    float: left;
+}
+.c3{
+    width:70px;
+    float: left;
+}
+.c3{
+    width:70px;
+    float: left;
+}
+.cont img{
+    height:50px;
+    width:50px;
+}
+.footer{
+    margin-top: 100px;
+    text-align: center;
+}
+@media(max-width:550px){
+    .left{
+        width:100%;
+        margin-left:50px;
+        margin-top:80px;
+    }
+    .right{
+        height:400px;
+        width:100%;
+        margin-top:100px;
+        margin-left:0px;
+    }
+    .left h1{
+        font-size: 30px;
+        padding-top: 130px;
+    }
+    .left h2{
+        font-size:70px;
+    }
+    .left button{
+        height:50px;
+        width:120px;
+        background-color: white;
+        border: 2px solid blueviolet;
+        margin-top: 30px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    .right img{
+        height:300px;
+        width:400px;
+    }
+    .about{
+        margin-top: 100px;
+    }
+    .about h1{
+        height:50px;
+        width:250px;
+        margin:auto;
+        font-size: 40px;
+        text-align: center;
+        border-bottom: 3px solid blueviolet;
+    }
+    .l1{
+        height:300px;
+        width:100%;
+        margin-left:30px;
+        margin-top: 20px;
+    }
+    .l1 img{
+        height:300px;
+        width:100%;
+    }
+    .r1{
+        height:500px;
+        width:100%;
+        margin-left:30px;
+        margin-top: 50px;
+    }
+    .r1 i{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .r1 p{
+        font-size: 17px;
+    }
+    .r1 button{
+        height:50px;
+        width:180px;
+        border-radius: 8px;
+        border:3px solid blueviolet;
+        background-color: blueviolet;
+        color: white;
+        margin-top: 10px;
+    }
+    .r1 button:hover{
+        color:black;
+        background-color: white;
+    }
+    .container-fixed{
+        margin-left: 50px;
+    }
+    .contact h1{
+        font-size:35px;
+        width:260px;
+    }
+}
